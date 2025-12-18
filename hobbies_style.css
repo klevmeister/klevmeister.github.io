@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 107, 222);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    width: 50%;
+    padding: 0 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+nav a:hover{
+    background-color: rgb(0, 84, 175);
+    text-decoration: underline;
+}
+nav li:first-child{
+    margin-right: auto;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.hobby-container{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hobby {
+    height: 75vh;
+    width: 25vw;
+    margin: 20px;
+    padding: 10px;
+    border: 1px dotted #ccc;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hobby:hover {
+    border-color: rgb(0, 107, 222);
+    color: rgb(0, 107, 222);
+}
+img {
+    width: 23vw;
+}
+h3{
+    padding: 10px;
+    width: 95%;
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    width: 95%;
+}
+p #tap-scores{
+    text-decoration: none;
+}
+p #tap-scores:hover{
+    color: white;
+}
+p #cs2-history{
+    text-decoration: none;
+}
+p #cs2-history:hover{
+    color: white;
+}
